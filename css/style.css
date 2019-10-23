@@ -1,0 +1,120 @@
+.flexbox {
+    display: flex;
+}
+
+.touppercase {
+    text-transform: uppercase;
+}
+
+.button {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-decoration: none;
+
+    margin: 0 auto;
+}
+
+.courses-button {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.navbar {
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.hero {
+    background-image: url(../img/download.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    padding-bottom: 100px;
+}
+
+.hero p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    padding: 0 50px;
+
+}
+
+h1 span {
+    color: blue;
+}
+
+.text-white {
+    color: white;
+}
+
+.align {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.logos ul li img{
+    width: 100px;
+
+}
+
+.logos ul {
+    justify-content: center;
+}
+
+.numbers {
+    text-align: center;
+}
+
+.alumnos {
+    width: 100%;
+}
+
+.pad {
+    padding-right: 20px;;
+}
+
+h4 {
+    font-size: 2em;
+    padding: 20px 0;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+.courses>article {
+    padding: 0 100px 50px 100px;
+
+}
+
+.text-red {
+    color: red;
+}
+
+.button-blue {
+    color: blue;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.orange {
+    font-size: 2em;
+    color: orange;
+    font-style: italic;
+    font-weight: 50;
+}
